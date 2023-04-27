@@ -12,6 +12,8 @@ import { SinglePostComponent } from './pages/single-post/single-post.component';
 import { TermAndConditionComponent } from './pages/term-and-condition/term-and-condition.component';
 import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { CommentListComponent } from './comments/comment-list/comment-list.compo
     SinglePostComponent,
     TermAndConditionComponent,
     CommentFormComponent,
-    CommentListComponent
+    CommentListComponent,
+    AboutUsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
